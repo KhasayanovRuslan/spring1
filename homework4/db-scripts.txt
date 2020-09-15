@@ -1,0 +1,27 @@
+CREATE TABLE productsx (
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  title VARCHAR(255) NOT NULL,
+  price DECIMAL(8,2) NOT NULL,
+  PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('1', 'Ноутбук hckann127', '15000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('2', 'Ноутбук cskjknd99', '20000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('3', 'Ноутбук akhldlw08', '21000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('4', 'Ноутбук alchkaka2', '13000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('5', 'Ноутбук dhqjomm0986', '16000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('6', 'Ноутбук sdcabLL63', '19000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('7', 'Ноутбук kadgrf736', '43000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('8', 'Ноутбук aKHKN3467', '32000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('9', 'Ноутбук DSVD13', '18000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('10', 'Ноутбу fdhj1', '14000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('11', 'Телевизор xgrhsgg3266', '4000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('12', 'Телевизор dsfgwwd1145', '6000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('13', 'Телевизор dghwhh8', '7000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('14', 'Телевизор mkdzsf35', '3000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('15', 'Телевизор sfnh2', '10000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('16', 'Телевизор dfhh85', '18000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('17', 'Телевизор asfg76', '12000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('18', 'Телевизор nhmt2', '20000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('19', 'Телевизор ffjyu67', '16000');
+INSERT INTO `spring1homework3`.`productsx` (`id`, `title`, `price`) VALUES ('20', 'Телевизор agyu8', '19000');
