@@ -1,0 +1,11 @@
+CREATE TABLE books (
+	id int(11) NOT NULL AUTO_INCREMENT,
+    title VARCHAR(100) DEFAULT NULL,
+    short_description VARCHAR(100) DEFAULT NULL,
+    release_year int(11),
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARSET=latin1;
+
+INSERT INTO `spring1homework3`.`books` (`id`, `title`, `short_description`, `release_year`) VALUES ('1', 'Book1', 'csljkncs;ac', '2000');
+INSERT INTO `spring1homework3`.`books` (`id`, `title`, `short_description`, `release_year`) VALUES ('2', 'Book2', 'sddshcnlf', '2001');
+INSERT INTO `spring1homework3`.`books` (`id`, `title`, `short_description`, `release_year`) VALUES ('3', 'Book3', 'duwhcdx', '2002');
